@@ -1,7 +1,7 @@
 ---
 layout: layouts/home.njk
 title: Home
-date: 2016-01-01T00:00:00.000Z
+date: 2021-04-17 
 permalink: /
 eleventyNavigation:
   key: Home
@@ -9,12 +9,17 @@ eleventyNavigation:
 ---
 # Welcome
 
-This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com).
+SG Stonk Go is an add-on to bring Yahoo Finance Stocks and ETFs data into your Google Sheets. 
 
-Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
+## Why build this?
 
-For more info on installation and usage, view the [project repo]({{ pkg.repository.url }}) on GitHub.
+I wanted to use Google Sheets to monitor my stocks portfolio. 
+For US stocks, Google Finance function works great 
+However if you are looking for Singapore Stocks data you will faced into a problem.
 
-Or click the button below to deploy your own copy of this project to Netlify.
+The solution here is to build a custom function that pulls in Yahoo Finance data into Google Sheets.
+This is the video tutorial
+https://www.youtube.com/watch?v=rsmV1LpHTPE
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
+There are also friends who shared that they are less comfortable writing scripts
+So I went ahead and turn it into a Google Sheets add-on
